@@ -16,4 +16,5 @@
   - raycast controller influences classes in SMARTS_SDK.Ultrasound;
 - added bone ultrasound material and meshcolider to spinal block
 - added skin layer to skin on spinal block
+- added ultrasound matrial to needle
 </details>
