@@ -14,6 +14,8 @@
 - ### raycast controller now triggers ultrasound visualization when it detects a collision
   - works by turning off ultrasound materials when not in contact
   - raycast controller influences classes in SMARTS_SDK.Ultrasound;
+  - it may be worth considering including the source code for for the SMARTS-SDK.dll file maybe as a text file to avoid any conflicts 
+  - currently the only way to see whats inside is by using a decompiler such as dotpeek
 - added bone ultrasound material and meshcolider to spinal block
 - added skin layer to skin on spinal block
 - added ultrasound matrial to needle
