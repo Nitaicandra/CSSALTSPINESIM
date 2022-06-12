@@ -13,6 +13,7 @@
 - updated raycast controller no longer needs tags works based on script objects
 - ### raycast controller now triggers ultrasound visualization when it detects a collision
   - works by turning off ultrasound materials when not in contact
+  - added oncolision boolean to turn off and on by default it is off
   - raycast controller influences classes in SMARTS_SDK.Ultrasound;
   - it may be worth considering including the source code for for the SMARTS-SDK.dll file maybe as a text file to avoid any conflicts 
   - currently the only way to see whats inside is by using a decompiler such as dotpeek
