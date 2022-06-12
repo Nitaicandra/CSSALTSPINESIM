@@ -17,4 +17,5 @@
 - added bone ultrasound material and meshcolider to spinal block
 - added skin layer to skin on spinal block
 - added ultrasound matrial to needle
+- added needle point collision detection
 </details>
