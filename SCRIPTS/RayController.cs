@@ -10,7 +10,7 @@ public class RayController : MonoBehaviour
     public CollisionReverseRaycast[] script_list;
     public UltrasoundMaterial[] ultrasound_list;
     public float pressure_threshold=0.05f;
-    public bool oncollision = true;
+    public bool oncollision = false;
     // Start is called before the first frame update
     void Start()
     {
