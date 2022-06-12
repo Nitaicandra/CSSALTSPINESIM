@@ -5,12 +5,12 @@
 <summary>
 6/12/2022 Ultrasound working syringe working , positions localized
 </summary>
-- Modifed versions of spine block needle and probe added and aligned
+- #Modifed versions of spine block needle and probe added and aligned
   - orgins alligned in blender, currently i believe there is no way to do it easily in unity
   - i would suggest rotations and and positions be standardized to 0,0,0 and mesh orgins be set to center of volume for easier alignment
 - Replaced default ultrasound probe with ultrasound pressure prefab
 - updated raycast controller no longer needs tags works based on script objects
-- raycast controller now triggers ultrasound visualization when it detects a collision
+- #raycast controller now triggers ultrasound visualization when it detects a collision
   - works by turning off ultrasound materials when not in contact
   - raycast controller influences classes in SMARTS_SDK.Ultrasound;
 - added bone ultrasound material and meshcolider to spinal block
