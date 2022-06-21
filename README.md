@@ -10,7 +10,7 @@
 - ### Modifed versions of spine block needle and probe added and aligned
   - orgins alligned in blender, currently i believe there is no way to do it easily in unity
   - Replaced default ultrasound probe with ultrasound pressure prefab 
-- ### raycast controller now can trigger ultrasound visualization when it detects a collision
+- ### Raycast controller now can trigger ultrasound visualization when it detects a collision
   - updated raycast controller no longer needs tags, works based on script objects
   - works by turning off ultrasound materials when not in contact
   - added oncolision boolean to turn off and on ultrasound visualization on collision, by default it is off
