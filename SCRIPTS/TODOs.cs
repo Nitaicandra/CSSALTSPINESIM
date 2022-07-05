@@ -1,6 +1,6 @@
 ﻿/* Place newest entry at top.
  * 
- * 
+ *  --COMPLETED--
  * 7/1/22 DL - after review of Nitai Stephens progress
  * There were a number of problems unrelated to NS work due to SDK bugs and useability.
  * I rotated the US Probe 90 degrees because it was wrong in the SDK. Long term solution requires SDK fix, outside scope of this project. 
@@ -25,7 +25,7 @@
  * Make a button for turning the visibility of the skin in the 3D rendering on and off. (Mesh renderer, not the collider if there is one.)
  * Buttons should be on the right side of the screen. We have to reserve room for the Cognitive Aids in the left lower corner.
  * 
- * 
+ * --COMPLETED--
  * 6/29/22 DL
  * create skin without flat sides, replace current skin
  * apply semi-transparent material to skin. pick a color. 
