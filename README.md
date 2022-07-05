@@ -1,8 +1,13 @@
 # CSSALTSPINESIM
 
+![3HKBarebirdbatUnity_2019 1 1f1_Personal_-_ PREVIEW_PACKAGES_IN_U05_07_2022](https://user-images.githubusercontent.com/89361982/177398433-6384ce71-0b23-4752-b64a-47afee53ac7f.gif)
 
-  
+- This simulation will be connected to a colocated spinal block and will be used to train medical students how to perform spinal injections using ultrasound
 
+<details>
+<summary>
+June 21 2022
+</summary>
 ![39iPigeonUnity_2019 1 1f1_-_ PREVIEW_PACKAGES_IN_USE _-_pro12_06_2022](https://user-images.githubusercontent.com/89361982/173229976-fa6cf115-b7a6-4a3c-b3a4-0cb7265194f6.gif)
 - ### Modifed versions of spine block needle and probe added and aligned
   - orgins alligned in blender, currently i believe there is no way to do it easily in unity
@@ -19,4 +24,6 @@
   - added skin layer to skin on spinal block
   - added ultrasound matrial to needle color gray
   - added needle point collision detection
+</details>
+
 
