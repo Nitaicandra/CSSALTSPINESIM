@@ -2,7 +2,7 @@
 
 ![3HKBarebirdbatUnity_2019 1 1f1_Personal_-_ PREVIEW_PACKAGES_IN_U05_07_2022](https://user-images.githubusercontent.com/89361982/177398433-6384ce71-0b23-4752-b64a-47afee53ac7f.gif)
 
-- This simulation will be connected to a colocated spinal block and will be used to train medical students how to perform spinal injections using ultrasound
+- This simulation will be connected to a colocated spinal block and used to train medical students how to perform spinal injections using ultrasound
 
 
 # SMMARTS-SDK
