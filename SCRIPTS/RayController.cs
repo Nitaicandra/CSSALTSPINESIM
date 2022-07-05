@@ -10,7 +10,7 @@ public class RayController : MonoBehaviour
     public CollisionReverseRaycast[] script_list;
     public UltrasoundMaterial[] ultrasound_list;
     public float pressure_threshold=0.05f;
-    public bool oncollision = false;
+    public bool UltrasoundOncollision = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +23,7 @@ public class RayController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (oncollision)
+        if (UltrasoundOncollision)
         {
             for (int j = 0; j < ultrasound_list.Length; j++)
             {
@@ -36,9 +36,10 @@ public class RayController : MonoBehaviour
             {
                 if (script_list[i].pressure > pressure_threshold)
                 {
-                    Debug.Log("VEIN COLLAPSED " + "Pressure " +
-                        script_list[i].pressure + " OBJECT " + script_list[i].gameObject);
-                    if (oncollision)
+                    /*Debug.Log("VEIN COLLAPSED " + "Pressure " +
+                    script_list[i].pressure + " OBJECT " + script_list[i].gameObject);
+                    */
+                    if (UltrasoundOncollision)
                     {
                         for (int j = 0; j < ultrasound_list.Length; j++)
                         {
